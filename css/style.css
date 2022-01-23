@@ -1,0 +1,421 @@
+body{
+    height: 5000px;
+}
+.bg-light{
+    background-color: white !important;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.started{
+    color: black;
+    background-color: #ffcc01;
+    border: none;
+    padding:10px 20px ;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all .5s;
+    
+}
+.started:hover{
+    background-color: white;
+    border: 1px solid #ffcc01;
+    color: #ffcc01;
+
+}
+.started:focus{
+   
+    border: 2px solid black;
+    transition: none;
+}
+
+.joinus{
+    margin-left: 20px;
+}
+
+
+/* start section background */
+
+
+
+.img{
+    width: 80%;
+    height:600px ;
+    margin-left: 200px;
+
+}
+.khaled h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.khaled{
+    position: absolute;
+    top: 250px;
+}
+
+.search{
+    border: none;
+    background-color: #ffcc01;
+    padding: 0px 15px;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+.search:focus{
+    box-shadow: 0 0 1px 4px rgb(0 123 255 / 25%);
+}
+
+.form-control{
+    height: 45px;
+}
+
+.about{
+    background-color: #ffcc01;
+    width: 37%;
+    height: 86px;
+    padding-top: 30px;
+    position: absolute;
+    right: 37px;
+    bottom: 0px;
+}
+.about p{
+
+    display: inline-block;
+    margin-left: 20px;
+}
+.about .fa-phone , .fa-map-marker {
+    
+    margin-left: 30px;
+    color: white;
+    
+}
+
+@media only screen and (max-width:992px){
+
+    .khaled h1 {
+        font-size: 42px;
+    }
+    .about {
+        width:63% ;
+        right: 0;
+        bottom: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 414px){
+.about {
+    width: 80%;
+    right: 0;
+    bottom: 0;
+
+}
+}
+/* end section background */
+
+
+/* start section Our's Company Statistics */
+.our_company h1 {
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.box h2 {
+    color: hsl(48, 100%, 50%);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.our_company .box{
+    display: inline-block;
+    background-color: #e6e6e6;
+    height: 200px;
+    text-align: center;
+    padding-top: 42px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:992px){
+
+    .our_company .col-md-6 {
+       
+        max-width: 100% ;
+        flex: none ;
+        overflow: hidden;
+        
+
+
+}
+}
+
+@media only screen and (max-width:768px){
+
+    .our_company .box {
+
+       width: 40%;
+       
+
+}
+}
+
+/* end section Our's Company Statistics */
+
+
+/* <!-- start section appartmets --> */
+.appartments{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 1250px;
+}
+
+.appartments h1 {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.appartments .col-md-4 {
+    max-width: 30%;
+    height: 420px;
+    padding: 0%;
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+.appartments .col-md-4 .down_card p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.appartments .col-md-4 .down_card h5 , h6{
+    display: inline;
+
+}
+.appartments .col-md-4 .down_card h5{
+    margin-right:21px ;
+}
+
+.appartments .col-md-4 .down_card h6{
+    margin-right: 46px;
+    color: #ffcc01;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.appartments .col-md-4 .down_card {
+    
+    padding: 12px;
+}
+
+.appartments .view{
+    border: none;
+    background-color: white;
+    padding: 9px 15px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: -webkit-pictograph;
+    border-radius: 5px;
+}
+.appartments .view:hover {
+    background-color: #1f373d;
+    color:#ffcc01 ;
+    transition: .7s all;
+}
+
+.appartments .view:focus{
+    outline: 2px solid black;
+    transition: none;
+}
+
+@media only screen and (min-width: 768px) and  (max-width:992px){
+
+
+    .appartments {
+        height: auto;
+    }
+    .appartments .col-md-4 {
+       max-width: 28%;
+       height: 440px;
+
+}
+
+.appartments .col-md-4 .down_card h6  {
+    margin-right: 0%;
+    font-size: 18px;
+   
+}
+
+.appartments .col-md-4 .down_card h5 {
+    margin-right: 0%;
+    font-size: 18px;
+}
+
+}
+
+
+@media only screen and (max-width:768px){
+    .appartments {
+        height: auto;
+        
+        overflow: hidden;
+    }
+    .appartments .col-md-4 {
+       max-width: 85%;
+      
+}
+    .appartments .view{
+        margin-left: 156px;
+        margin-bottom: 21px;
+    }
+}
+/* <!-- end section appartemets --> */
+
+/* <!-- start section how it is work --> */
+.down-pic1 {
+    background-color: #ffcc01;
+}
+
+
+.down-pic1 h5, .down-pic1 p,.down-pic1 hr,.down-pic1 h6{
+    color: white;
+}
+
+.down-pic1 h5 , .down-pic2 h5 {
+    margin-left: 12px;
+    padding-top: 35px;
+   
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.down-pic1 p , .down-pic2 p {
+    margin-left: 71px;
+    
+
+}
+
+.down-pic1 hr , .down-pic2 hr {
+    border-top: 2px solid ;
+    margin-bottom: 7px;
+    padding-bottom: 27px;
+    margin-left: 71px;
+    margin-right: 200px;
+
+} 
+
+.down-pic1 h6 , .down-pic2 h6{
+   
+    display: block;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+
+/* ............................................................... */
+
+
+
+
+
+.how_work .col-md-4 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.how_work .col-md-4 img {
+    height: 100px;
+}
+
+
+@media only screen and (min-width: 768px) and  (max-width:992px){
+    .down-pic1 h5, .down-pic2 h5 {
+        font-size: 17px;
+    }
+}
+
+
+/* <!-- end section how it is work --> */
+
+
+/* <!-- start section services  --> */
+
+.services .caption {
+    margin-left: 120px;
+}
+.services .caption p{
+    font-size: 20px;
+    font-family: revert;
+}
+
+.services .caption h5{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+
+/* <!-- end section services  --> */
+
+
+/* <!-- start section agents --> */
+.agents{
+    background-color: #e6e6e6;
+    height: 600px;
+    width: 100%;
+}
+
+.agents .agent {
+    background-color: white;
+    padding: 0%;
+    margin-left: 50px;
+    max-width: 28%;
+}
+
+.agents .agent_info{
+    padding: 25px;
+}
+.agents .agent_info h4{
+
+    font-weight: 700;
+}
+.agents .agent_info h6 {
+    color: #ffcc01 ; 
+    margin-right: 40px;
+}
+
+.agents .agent_info .fa-facebook-f {
+    margin-right: 15px;
+}
+
+.agents .agent_info .fa-twitter{
+    margin-right: 15px;
+}
+
+
+
+@media only screen and   (max-width:992px){
+    .agents {
+        
+        height: auto;
+        width: 130%;
+       
+        
+    }
+}
+
+@media only screen and   (max-width:992px){
+    .agents .agent {
+        
+        max-width: 100%;
+        
+    }
+}
+/* <!-- start section agents --> */
